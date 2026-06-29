@@ -1,0 +1,12 @@
+===== MINI SOC THREAT REPORT =====
+
+User: admin
+Failed Attempts: 3
+Severity: HIGH
+Alert: Possible Brute Force Attack
+------------------------------
+User: root
+Failed Attempts: 2
+Severity: MEDIUM
+Alert: Suspicious Activity
+------------------------------

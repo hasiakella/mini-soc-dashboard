@@ -1,0 +1,72 @@
+1. Kali Linux Open Cheyyi
+
+Run:
+
+nmap -Pn -F scanme.nmap.org > nmap_scan.txt
+
+Scan complete ayyaka:
+
+cat nmap_scan.txt
+
+Open ports (22, 80) chupistayi.
+
+2. Nmap Result Copy Cheyyi
+
+Kali lo:
+
+cat nmap_scan.txt
+
+Output motham copy cheyyi.
+
+Windows lo:
+
+miniSOC/logs/nmap_scan.txt
+
+open chesi old content delete chesi latest content paste cheyyi.
+
+Save (Ctrl + S).
+
+3. Threat Analysis Run Cheyyi
+
+VS Code terminal:
+
+cd src
+python analyzer.py
+
+Output:
+
+User: admin
+Failed Attempts: 3
+Severity: HIGH
+
+4. Network Analysis Run Cheyyi
+python network_analyzer.py
+
+Output:
+
+Open Ports: 2
+Services: ssh, http
+Risk Level: MEDIUM
+5. Final Report Generate Cheyyi
+python final_report.py
+
+Output:
+
+Final SOC Report Generated Successfully!
+6. Dashboard Generate Cheyyi
+python dashboard_generator.py
+
+Output:
+
+Dynamic Dashboard Generated Successfully!
+7. Dashboard Open Cheyyi
+
+dashboard.html file ni double click cheyyi
+
+Leda
+
+start ..\dashboard.html
+
+Dashboard browser lo open avutundi.
+
+Demo Order

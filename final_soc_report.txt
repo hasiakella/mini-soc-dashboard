@@ -1,0 +1,52 @@
+
+==========================
+ MINI SOC FINAL REPORT
+==========================
+
+THREAT ANALYSIS
+
+===== MINI SOC THREAT REPORT =====
+
+User: admin
+Failed Attempts: 3
+Severity: HIGH
+Alert: Possible Brute Force Attack
+------------------------------
+User: root
+Failed Attempts: 2
+Severity: MEDIUM
+Alert: Suspicious Activity
+------------------------------
+
+
+--------------------------
+
+NETWORK ANALYSIS
+
+Starting Nmap 7.95 ( https://nmap.org ) at 2026-06-26 04:14 EDT
+Nmap scan report for scanme.nmap.org (45.33.32.156)
+Host is up (0.26s latency).
+Other addresses for scanme.nmap.org (not scanned): 2600:3c01::f03c:91ff:fe18:bb2f
+Not shown: 86 closed tcp ports (reset)
+PORT      STATE    SERVICE
+22/tcp    open     ssh
+25/tcp    filtered smtp
+80/tcp    open     http
+106/tcp   filtered pop3pw
+514/tcp   filtered shell
+544/tcp   filtered kshell
+1028/tcp  filtered unknown
+1029/tcp  filtered ms-lsa
+1900/tcp  filtered upnp
+2000/tcp  filtered cisco-sccp
+5000/tcp  filtered upnp
+5432/tcp  filtered postgresql
+9100/tcp  filtered jetdirect
+49154/tcp filtered unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 13.75 seconds
+
+
+==========================
+END OF REPORT
+==========================
